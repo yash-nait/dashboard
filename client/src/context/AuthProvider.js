@@ -29,8 +29,6 @@ export function AuthProvider({children}) {
       setLoading(() => (false))
     })
 
-    console.log("running")
-
     return unsubscribe
   }, [])
 
